@@ -1,0 +1,17 @@
+# ─── Core Framework ─────────────────────────────────────────────────────────
+fastapi==0.115.*
+uvicorn[standard]==0.32.*
+pydantic==2.9.*
+
+# ─── OpenAI ─────────────────────────────────────────────────────────────────
+openai>=1.57
+
+# ─── Google Calendar API ────────────────────────────────────────────────────
+google-api-python-client==2.155.*
+google-auth-httplib2==0.2.*
+google-auth-oauthlib==1.2.*
+
+# ─── Utilities ──────────────────────────────────────────────────────────────
+python-dotenv==1.0.*
+resend>=2.0,<3
+tzdata>=2024.1
